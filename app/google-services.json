@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "713564509257",
+    "project_id": "happify-1623995050057",
+    "storage_bucket": "happify-1623995050057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713564509257:android:c23882f5c3af971dd9db98",
+        "android_client_info": {
+          "package_name": "com.example.happify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713564509257-atp34r68fsppqk7c1prp7ebqb8sbn1ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.happify",
+            "certificate_hash": "a3f51c06a4a6521b20a2aae6acc47d27840619e8"
+          }
+        },
+        {
+          "client_id": "713564509257-3k6704a4e74qhcahd9ulmhvqnv6arvpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApS5tBXl6iZ0mOsAnO0A20o0AmaESpJEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713564509257-3k6704a4e74qhcahd9ulmhvqnv6arvpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
