@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Happify</string>
+    <string name="happify">Happify</string>
+    <string name="take_a_test">Take a test</string>
+    <string name="breathing_exercises">Breathing Exercises</string>
+    <string name="close">Close</string>
+    <string name="login">Login</string>
+    <string name="learn_more_about_mental_health">Learn more about mental health</string>
 </resources>

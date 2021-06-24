@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseUser currentUserUser = firebaseAuth.getCurrentUser();
         if(currentUserUser!=null) {
-            Intent intent = new Intent(getApplicationContext(), ProfileActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            Intent intent = new Intent(getApplicationContext(), DashboardActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         }
 
@@ -120,12 +120,14 @@ public class MainActivity extends AppCompatActivity {
                                         // Log.d(TAG, "signInWithCredential:success");
 
                                         //If successful redirect to profile activity
-                                        startActivity(new Intent(MainActivity.this
-                                                , ProfileActivity.class)
+                                        startActivity(new Intent(getApplicationContext()
+                                                , DashboardActivity.class)
                                                 .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
                                         //Firebase authenticated successfully
 
-                                    } else {
+                                    }
+
+                                    else {
                                         // If sign in fails, display a message to the user.
                                         displayToast("Authentication failed" +
                                                 task.getException().getMessage());

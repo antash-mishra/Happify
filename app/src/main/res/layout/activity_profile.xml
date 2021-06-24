@@ -9,7 +9,7 @@
     android:padding="16dp"
     tools:context=".ProfileActivity">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/iv_image" />
@@ -21,6 +21,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@color/design_default_color_primary" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
