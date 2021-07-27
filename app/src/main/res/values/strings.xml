@@ -6,4 +6,47 @@
     <string name="close">Close</string>
     <string name="login">Login</string>
     <string name="learn_more_about_mental_health">Learn more about mental health</string>
+    <string name="depression">Depression Test</string>
+    <string name="anxiety">Anxiety Test</string>
+    <string name="addiction">Addiction Test</string>
+    <string name="ptsd">PTSD Test</string>
+    <string name="dep_q1">Are you feeling down, depressed, or hopeless nowadays ?</string>
+    <string name="dep_q2">Do you have little interest or pleasure in doing things?</string>
+    <string name="dep_q3">Trouble falling or staying asleep, or sleeping too much?</string>
+    <string name="dep_q4">Feeling tired or having little energy for no reason?</string>
+    <string name="dep_q6">Thoughts that you would be better off dead, or of hurting yourself?</string>
+    <string name="dep_q5">Having thoughts of being a failure ?</string>
+    <string name="info">The values to be entered are from 1 to 5. 1 being you disagree and 5 being highly agree.</string>
+    <string name="one">1</string>
+    <string name="anx_q1">Feeling nervous, anxious, or on edge?</string>
+    <string name="anx_q2">Not being able to stop or control worrying?</string>
+    <string name="anx_q3"> Worrying too much about different things?</string>
+    <string name="anx_q4">Trouble relaxing, sleeping or even breathing?</string>
+    <string name="anx_q5">Being so restless that it is hard to sit still?</string>
+    <string name="anx_q6">Becoming easily annoyed or irritable?</string>
+    <string name="info_ptsd">Answer 0 for No and 1 for Yes, if in the past month…</string>
+    <string name="ptsd_q1">Had nightmares about the event(s) or thought about the event(s) when you did not want to?</string>
+    <string name="ptsd_q2">Tried hard not to think about the event(s) or went out of your way to avoid situations that reminded you of the event(s)?</string>
+    <string name="ptsd_q3">Been constantly on guard, watchful, or easily startled?</string>
+    <string name="ptsd_q4">Felt numb or detached from people, activities, or your surroundings?</string>
+    <string name="ptsd_q5">Felt guilty or unable to stop blaming yourself or others for the event(s) or any problems the event(s) may have caused?</string>
+    <string name="info_add">Answer 0 for No and 1 for Yes.</string>
+    <string name="add_q1">Have you ever felt that you ought to cut down on your drinking or drug use?</string>
+    <string name="add_q2">Have people annoyed you by criticizing your drinking or drug use?</string>
+    <string name="add_q3">Have you ever felt bad or guilty about your drinking or drug use?</string>
+    <string name="add_q4">Have you ever had a drink or used drugs first thing in the morning to steady your nerves or to get rid of a hangover?</string>
+    <string name="add_q5">What substance or addiction are you concerned about?</string>
+    <string name="submit">Submit</string>
+    <string name="zero">0</string>
+    <string name="drugs">Marijuana, Clorazopam, Xanax</string>
+    <string name="title_activity_timer">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_timers">MainActivity</string>
 </resources>

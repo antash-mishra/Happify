@@ -2,6 +2,7 @@ package com.example.happify;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.app.Activity;
 import android.content.Context;

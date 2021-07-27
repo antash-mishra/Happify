@@ -9,8 +9,8 @@
 
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="347dp"
-        android:layout_height="105dp"
+        android:layout_width="400dp"
+        android:layout_height="107dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/happify"
@@ -20,4 +20,55 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/depTest"
+        android:layout_width="188dp"
+        android:layout_height="64dp"
+        android:background="@drawable/custbutt1"
+        android:text="@string/depression"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/anxTest"
+        android:layout_width="188dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="356dp"
+        android:background="@drawable/custbutt1"
+        android:text="@string/anxiety"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addTest"
+        android:layout_width="188dp"
+        android:layout_height="64dp"
+        android:background="@drawable/custbutt1"
+        android:text="@string/addiction"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ptsdTest"
+        android:layout_width="188dp"
+        android:layout_height="64dp"
+        android:background="@drawable/custbutt1"
+        android:text="@string/ptsd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
 </androidx.constraintlayout.widget.ConstraintLayout>

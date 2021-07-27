@@ -11,11 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Happify">
-        <activity android:name=".DashboardActivity"></activity>
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".Read" />
-        <activity android:name=".Breathe" />
         <activity android:name=".Test" />
+        <activity android:name=".Depression" />
+        <activity android:name=".Addiction" />
+        <activity android:name=".Timer" />
+        <activity android:name=".Anxiety" />
+        <activity android:name=".PTSD" />
+        <activity android:name=".Breathe" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
