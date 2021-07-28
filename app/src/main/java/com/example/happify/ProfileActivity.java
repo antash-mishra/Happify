@@ -69,10 +69,12 @@ public class ProfileActivity extends AppCompatActivity {
                             //when task is successful
                             // sign out from google
                             firebaseAuth.signOut();
-
+                            Intent i = new Intent(ProfileActivity.this, MainActivity.class);
+                            startActivity(i);
                             //Display text
                             Toast.makeText(getApplicationContext(), "Logout successful",
                                     Toast.LENGTH_SHORT).show();
+
                         }
                         //Finish activity
                         finish();

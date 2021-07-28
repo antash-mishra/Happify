@@ -7,9 +7,12 @@ import androidx.appcompat.widget.AppCompatButton;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -38,7 +41,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
+import com.example.happify.MainActivity;
 public class DashboardActivity extends AppCompatActivity {
 
     Button btLogout;
@@ -49,6 +52,7 @@ public class DashboardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+
 
         //Initialize firebase auth
         firebaseAuth = FirebaseAuth.getInstance();
@@ -92,8 +96,8 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
-    //    final Button close = findViewById(R.id.close);
-    //    close.setActivated(true);
+        //final Button close = findViewById(R.id.close);
+        //close.setActivated(true);
     }
 
     public void test(View v){
@@ -115,7 +119,7 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     //public void close(View v){
-    //    DashboardActivity.this.finish();
-    //    System.exit(0);
+    //    MainActivity.this.finish();
+    //    System.exit(1);
     //}
 }
